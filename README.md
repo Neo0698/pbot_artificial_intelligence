@@ -13,3 +13,9 @@ The robot start recording when it see your face his not to far of him.
 
 <h2>recomanded libaries</h2>
 the recomanded libaries are more than needed to have a good experience with pbot
+install pyaudio
+
+you can install pyaudio by using
+pip install pyaudio
+if it doesn't work you need to install conda to use the commande 
+conda install pyaudio
