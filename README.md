@@ -1,7 +1,8 @@
 # pbot
 Maeva his a artificial intelligence in python that can comunicate with you and too have a better comunication he can now where you are and who you are by using facial recognition. When all the operation are made on the server you will be always on date and you don't need a powerful computer.
 
-pbot his not like every chatbot you don't have 
+pbot his not like every chatbot!
+<img src="https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiy7urUo5HkAhVEXBoKHazLC_4QjRx6BAgBEAQ&url=https%3A%2F%2Fgiphy.com%2Fgifs%2Fciscoengemojis-security-3ohhwFmrcYqKEHg3Kw&psig=AOvVaw3hfR0QooHk4uWN6a0YF6pm&ust=1566384623143977">
 
 <h1>Security</h1>
 All the Image stays on the computer only the visage position and the voice goes to the serveur
