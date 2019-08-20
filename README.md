@@ -13,7 +13,8 @@ The robot start recording when it see your face his not to far of him. Or if you
 he will sk you i you want to start a conversation you will only need to enter yes.
 <h2>beta</h2>
 this his a beta version don't be to exigent with him we work hard to make this program more inteligent, that
-he can have a better conversation and can feel emotion
+he can have a better conversation and can feel emotion.
+<img src="https://cdn.dribbble.com/users/1138875/screenshots/4432385/roboto_animation_dribbble.gif">
 
 
 <h2>recomanded libaries</h2>
