@@ -15,7 +15,7 @@ to the question that he ask too you like hello and respond or ask a joke
 
 <h2>beta</h2>
 this his a beta version don't be to exigent with him we work hard to make this program more inteligent, that
-he can have a better conversation and can feel emotion.
+he can have a better conversation and can understand emotion.
 <img width="480" height="480"src="https://cdn.dribbble.com/users/1138875/screenshots/4432385/roboto_animation_dribbble.gif">
 
 
