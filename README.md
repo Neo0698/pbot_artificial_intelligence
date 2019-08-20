@@ -1,5 +1,5 @@
 # pbot
-pbot his a artificial intelligence in python that can comunicate with you and too have a better comunication he can now where you are and who you are by using facial recognition. When all the operation are made on the server you will be always on date and you don't need a powerful computer.
+pbot his a artificial intelligence in python that can comunicate with you and too have a better comunication he can know who you are and where you are by using facial recognition. When all the operation are made on the server you will be always on date, like with Alexa and google assistant and you don't need a powerful computer.
 
 pbot his not like every chatbot!
 <img src="https://media1.giphy.com/media/3ohhwFmrcYqKEHg3Kw/source.gif">
@@ -11,6 +11,7 @@ All the Image stays on the computer only the visage position and the voice goes 
 <h1>how does it workes</h1>
 The robot start recording when it see your face his not to far of him. Or if you didn't said yes to the camera
 he will sk you i you want to start a conversation you will only need to enter yes.
+
 <h2>beta</h2>
 this his a beta version don't be to exigent with him we work hard to make this program more inteligent, that
 he can have a better conversation and can feel emotion.
