@@ -21,7 +21,7 @@ he can have a better conversation and can understand emotion.
 
 <h2>recomanded libaries</h2>
 the recomanded libaries are more than needed to have a good experience with pbot
-install pyaudio
+install pyaudio and opencv
 
 you can install pyaudio by using
 pip install pyaudio
