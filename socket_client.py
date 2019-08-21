@@ -3,7 +3,7 @@
 def socket_client(impdata2, impip):
     import socket
     print("___clien__")
-    host, port = ('192.168.1.34',5566)
+    host, port = ('192.168.1.34',5567)
     print("send___")
     socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:        
