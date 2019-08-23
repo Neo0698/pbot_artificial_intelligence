@@ -24,7 +24,7 @@ green_color=(0,255,0)
 
 with open("setting.txt", "r")as fic:
     setting_set=fic.read()
-print(setting_set)
+
 if(setting_set=="A"):
     print(" before using we need to do some settings")
     print(" it will take less than a minute")
