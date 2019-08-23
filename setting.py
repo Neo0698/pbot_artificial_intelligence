@@ -32,8 +32,7 @@ def menu():
     with open("setting.txt", "a")as fic:
         fic.write("pas=="+password+"/")
    
-    with open("setting.txt", "a")as fic:
-        fic.write("cam=yes")
+    
     with open("setting.txt", "r")as fic:
         set_=fic.read()
     data2=("setting set"+str(set_))    
@@ -44,6 +43,8 @@ def menu():
         from PIL import Image
         import numpy as np
         import pickle
+        with open("setting.txt", "a")as fic:
+            fic.write("cam=yes")        
         print("ok we will take some picture.")
         print("the admin pleas go infront of the camera alone")
         found=(0)
@@ -88,56 +89,56 @@ def menu():
                     found=(1)
                     
                        
-    d=input("pleas put another face")
-    found=(0)
-    while found==0:
-            print(found)
-            print("found")
-            face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt.xml')
-            cap=cv2.VideoCapture(0)
-            ret, frame = cap.read()    
-            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)            
-            for(x, y, w, h) in faces:
-                    roi_gray = gray[y:y+h, x:x+w]
-                    img_item=("image/user2/ima10.png")
-                    cv2.imwrite(img_item, roi_gray)
-                    cap=cv2.VideoCapture(0)
-                    ret, frame = cap.read()
-                    img_item= ("image/user2/ima"+"11.png")
-                    cv2.imwrite(img_item, roi_gray)
-                    cap=cv2.VideoCapture(0)
-                    ret, frame = cap.read()
-                    img_item= ("image/user2/ima"+"11.png")
-                    cv2.imwrite(img_item, roi_gray)
-                    cap=cv2.VideoCapture(0)
-                    ret, frame = cap.read()
-                    img_item= ("image/user2/ima12.png")
-                    cap=cv2.VideoCapture(0)
-                    cv2.imwrite(img_item, roi_gray)
-                    ret, frame = cap.read()
-                    img_item= ("image/user2/ima13.png")
-                    cap=cv2.VideoCapture(0)
-                    ret, frame = cap.read()
-                    cv2.imwrite(img_item, roi_gray)
-                    img_item= ("image/user2/ima14.png")
-                    cap=cv2.VideoCapture(0)
-                    ret, frame = cap.read()
-                    cv2.imwrite(img_item, roi_gray)
-                    img_item= ("image/user2/ima15.png")
-                    cap=cv2.VideoCapture(0)
-                    ret, frame = cap.read()
-                    cv2.imwrite(img_item, roi_gray)
-                    number_img=(0) 
-                    face_train.train()
-                    print("we recomande you to restart the program")
-                    found=1
-                    
-
-
-
-
-
-
-
-
+                    d=input("pleas put another face")
+                    found=(0)
+                    while found==0:
+                            print(found)
+                            print("found")
+                            face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt.xml')
+                            cap=cv2.VideoCapture(0)
+                            ret, frame = cap.read()    
+                            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                            faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)            
+                            for(x, y, w, h) in faces:
+                                    roi_gray = gray[y:y+h, x:x+w]
+                                    img_item=("image/user2/ima10.png")
+                                    cv2.imwrite(img_item, roi_gray)
+                                    cap=cv2.VideoCapture(0)
+                                    ret, frame = cap.read()
+                                    img_item= ("image/user2/ima"+"11.png")
+                                    cv2.imwrite(img_item, roi_gray)
+                                    cap=cv2.VideoCapture(0)
+                                    ret, frame = cap.read()
+                                    img_item= ("image/user2/ima"+"11.png")
+                                    cv2.imwrite(img_item, roi_gray)
+                                    cap=cv2.VideoCapture(0)
+                                    ret, frame = cap.read()
+                                    img_item= ("image/user2/ima12.png")
+                                    cap=cv2.VideoCapture(0)
+                                    cv2.imwrite(img_item, roi_gray)
+                                    ret, frame = cap.read()
+                                    img_item= ("image/user2/ima13.png")
+                                    cap=cv2.VideoCapture(0)
+                                    ret, frame = cap.read()
+                                    cv2.imwrite(img_item, roi_gray)
+                                    img_item= ("image/user2/ima14.png")
+                                    cap=cv2.VideoCapture(0)
+                                    ret, frame = cap.read()
+                                    cv2.imwrite(img_item, roi_gray)
+                                    img_item= ("image/user2/ima15.png")
+                                    cap=cv2.VideoCapture(0)
+                                    ret, frame = cap.read()
+                                    cv2.imwrite(img_item, roi_gray)
+                                    number_img=(0) 
+                                    face_train.train()
+                                    print("we recomande you to restart the program")
+                                    found=1
+                                    
+                
+                
+                
+                
+                
+                
+                
+                
