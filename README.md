@@ -9,9 +9,9 @@ All the Image stays on the computer only the visage position and the voice goes 
 
 
 <h1>how does it workes</h1>
-The robot start recording when it see you need to be not to far of him. Or if you didn't said yes to the camera
+The robot start recording when it see you. You need to be not to far of him. Or if you didn't said yes to the camera
 he will ask you if you want to start a conversation you will only need to enter yes. for now you can respond 
-to the question that he ask too you like hello and respond or ask a joke
+to the question that he ask too. you can respond too it, or ask a joke.
 
 <h2>beta</h2>
 this his a beta version don't be to exigent with him we work hard to make this program more inteligent, that
