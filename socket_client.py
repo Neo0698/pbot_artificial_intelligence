@@ -2,9 +2,9 @@
 
 def socket_client(impdata2, impip):
     import socket
-    print("___clien__")
+   
     host, port = ('192.168.1.34',5567)
-    print("send___")
+    
     socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:        
         o=False
@@ -23,7 +23,7 @@ def socket_client(impdata2, impip):
         data=(str(impdata2)+"<c>ip"+str(impip))
         data = data.encode("utf8")
         socket.sendall(data)
-        print("send"+str(impdata2))
+       
                   
     except ConnectionRefusedError:
         print("Error no connection")
@@ -37,7 +37,11 @@ def socket_serveur(impip):
             stop=0
             host, port = ('',5566)
             socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            o=False
+            o=False 
+           
+            #face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt.xml')
+            #recognizer = cv2.face.LBPHFaceRecognizer_create()    
+            socket.listen(5)
             while o==False:
                 try:
                     o=True
@@ -50,21 +54,15 @@ def socket_serveur(impip):
                         o=True
                     
             
-            print("le serveur est dÃ©marrÃ©!")
-            #face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt.xml')
-            #recognizer = cv2.face.LBPHFaceRecognizer_create()    
-            socket.listen(5)
+           
             conn, adress = socket.accept()
-            print("en Ã©coute")
+           
             data= conn.recv(2048)
             socket.close()
-            print(data)
-            
+                        
             data_find=(str(data).find("input"))
             data_find_br=(str(data).find("break"))
-            if(data_find_br is not -1):
-                return 0
-                stop=1
+            
             data_find_print=(str(data).find("print"))    
             if(data_find_print is not -1):
                 print(data)                
@@ -78,6 +76,9 @@ def socket_serveur(impip):
                         print(data)
                         print("sound module")
                         socket_client(data, impip)
+            if(data_find_br is not -1):
+                return 0
+                stop=1
             if(data_find is not -1):
                     data_send=input(str(data))
                     print(data)
