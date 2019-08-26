@@ -3,7 +3,7 @@
 def socket_client(impdata2, impip):
     import socket
    
-    host, port = ('192.168.1.34',5567)
+    host, port = ('192.168.1.39',5567)
     
     socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:        
