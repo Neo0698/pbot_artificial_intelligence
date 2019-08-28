@@ -27,6 +27,7 @@ you can install pyaudio by using
 pip install pyaudio
 if it doesn't work you need to install conda to use the commande 
 conda install pyaudio
+or start the program setup.py that will install the libaries 
 
 <h1>contact</h1>
 you can contact me on instagram by privat my accont his scot.raphael06
