@@ -1,6 +1,9 @@
 # pbot
 pbot his a artificial intelligence in python that can comunicate with you and too have a better comunication he can know who you are and where you are by using facial recognition. When all the operation are made on the server you will be always on date, like with Alexa and google assistant and you don't need a powerful computer.
 
+ou can tap a question you need to say when you do the settings that you don't have a camera. When all the settings are done i will ask
+you if you want too start a conversation you will need to enter key.
+
 pbot his not like every chatbot!
 <img src="https://media1.giphy.com/media/3ohhwFmrcYqKEHg3Kw/source.gif">
 
