@@ -151,6 +151,10 @@ while True:
             
     if(cam==-1):
         ustap=input("do you want to start a conversation")
+        if(ustap=="key"):
+            user=input("what do you want to do:")
+            data2=("text"+user+"<c>"+ip)
+            socket_client.socket_client(data2, ip)
         if(ustap=="yes"):
             id_=0
             x=(0)
