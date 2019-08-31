@@ -41,7 +41,7 @@ def socket_serveur(impip):
            
             #face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt.xml')
             #recognizer = cv2.face.LBPHFaceRecognizer_create()    
-            socket.listen(5)
+            
             while o==False:
                 try:
                     o=True
@@ -54,7 +54,7 @@ def socket_serveur(impip):
                         o=True
                     
             
-           
+            socket.listen(5)
             conn, adress = socket.accept()
            
             data= conn.recv(2048)
