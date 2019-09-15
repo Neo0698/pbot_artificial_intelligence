@@ -1,4 +1,11 @@
 # pbot
+script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2945227826409900",
+    enable_page_level_ads: true
+  });
+</script>
 pbot his a artificial intelligence in python that can comunicate with you and too have a better comunication he can know who you are and where you are by using facial recognition. When all the operation are made on the server you will be always on date, like with Alexa and google assistant and you don't need a powerful computer.
 
 ou can tap a question you need to say when you do the settings that you don't have a camera. When all the settings are done i will ask
